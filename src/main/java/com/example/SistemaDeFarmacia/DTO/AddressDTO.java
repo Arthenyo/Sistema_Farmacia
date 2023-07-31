@@ -28,6 +28,10 @@ public class AddressDTO {
         city = entity.getCity();
     }
 
+    public Long getId() {
+        return id;
+    }
+
     public String getStreet() {
         return street;
     }

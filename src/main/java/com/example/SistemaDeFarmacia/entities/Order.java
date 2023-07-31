@@ -17,6 +17,7 @@ public class Order {
     @Column(columnDefinition = "TIMESTAMP WITHOUT TIME ZONE")
     private Instant date;
     private String numOrder;
+    @Column(name = "value_order")
     private Double value;
     private FormOfPayment formOfPayment;
     @ManyToOne
